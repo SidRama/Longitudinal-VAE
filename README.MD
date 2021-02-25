@@ -5,8 +5,9 @@ This repository contains the python scripts used in our [paper](https://arxiv.or
 Overview
 --------
 In this work, we propose the Longitudinal VAE (L-VAE), that uses a multi-output additive Gaussian process (GP) prior to extend the VAE's capability to learn structured low-dimensional representations imposed by auxiliary covariate information, and  derive a new KL divergence upper bound for such GPs. Our approach can simultaneously accommodate both time-varying shared and random effects, produce structured low-dimensional representations, disentangle effects of individual covariates or their interactions, and achieve highly accurate predictive performance.<br/><br/><br/>
-![L-VAE overview. The figure shows the Health MNIST dataset as an example. We apply an additive GP prior in the latent space using the auxiliary covariate information. Our model can perform the imputation of missing values as well prediction of missing instances. See the manuscript for more details.](./images/overview.png)
+![L-VAE overview.](./images/overview.png)
 <br/><br/>
+The figure shows the Health MNIST dataset as an example. We apply an additive GP prior in the latent space using the auxiliary covariate information. Our model can perform the imputation of missing values as well prediction of missing instances. See the manuscript for more details.
 
 Prerequisites
 ---------------
