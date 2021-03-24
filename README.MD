@@ -19,7 +19,6 @@ These scripts require the following software:
 Downloading MNIST digits
 ------------------------
 - Download and unzip archive from here: https://www.dropbox.com/s/j80vfwcqqu3vmnf/trainingSet.tar?dl=0
-- Do not push to remote repository.
 
 Generating Health MNIST experiment data
 ---------------------------------------
