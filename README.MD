@@ -13,7 +13,7 @@ Poster
 ------
 <br/>
 ![Poster.](./images/poster_L-VAE.png)
-<br/><br/>
+<br/>
 
 
 Prerequisites
