@@ -11,9 +11,8 @@ The figure shows the Health MNIST dataset as an example. We apply an additive GP
 
 Poster
 ------
-<br/><br/>
+
 ![Poster.](./images/poster_L-VAE.png)
-<br/><br/>
 
 
 Prerequisites
