@@ -1,6 +1,6 @@
 Longitudinal Variational Autoencoder
 ===========================================================================================
-This repository contains the python scripts used in our [paper](https://arxiv.org/abs/2006.09763) published in the Proceedings of the 24th International Conference on Artificial Intelligence and Statistics (AISTATS) 2021, San Diego, California, USA.
+This repository contains the python scripts used in our [paper](http://proceedings.mlr.press/v130/ramchandran21b.html) published in the Proceedings of the 24th International Conference on Artificial Intelligence and Statistics (AISTATS) 2021, San Diego, California, USA.
 
 Overview
 --------
@@ -8,6 +8,13 @@ In this work, we propose the Longitudinal VAE (L-VAE), that uses a multi-output 
 ![L-VAE overview.](./images/overview.png)
 <br/><br/>
 The figure shows the Health MNIST dataset as an example. We apply an additive GP prior in the latent space using the auxiliary covariate information. Our model can perform the imputation of missing values as well prediction of missing instances. See the manuscript for more details.
+
+Poster
+------
+<br/><br/><br/>
+![Poster.](./images/poster_L-VAE.png)
+<br/><br/>
+
 
 Prerequisites
 ---------------
