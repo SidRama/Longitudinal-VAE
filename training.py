@@ -601,7 +601,7 @@ def standard_training(nnet_model, type_nnet, epochs, dataset, optimiser, type_KL
 
 def variational_inference_optimization(nnet_model, type_nnet, epochs, dataset, prediction_dataset, optimiser, 
     latent_dim, covar_module0, covar_module1, likelihoods, zt_list, P, T, Q, weight, constrain_scales, 
-    id_covariate, loss_function, memory_dbg=False, eps=1e-6, results_path=None, save_path=None, gp_model_folder=None, '
+    id_covariate, loss_function, memory_dbg=False, eps=1e-6, results_path=None, save_path=None, gp_model_folder=None,
     generation_dataset=None):
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
